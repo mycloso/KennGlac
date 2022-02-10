@@ -1,0 +1,3 @@
+[ZoneTransfer]
+ZoneId=3
+HostUrl=https://wcc.sc.egov.usda.gov/reportGenerator/view_csv/customSingleStationReport/daily/start_of_period/1096:AK:SNTL%7Cid=%22%22%7Cname/2016-01-01,2021-11-01/name,state.code,stationId,county.name,latitude,longitude,elevation,inServiceDate,outServiceDate

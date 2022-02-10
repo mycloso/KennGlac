@@ -1,0 +1,50 @@
+Metadata for USGS air temp data at Kennicott River gage obtained via email from Barton Dengel (see email below) on 06/30/2020.
+
+DATA START: 05/27/2016
+DATA END: 06/30/2020
+
+Location: USGS 15209700 WF KENNICOTT R AT MCCARTHY AK site
+
+< USGS Gage Site Information>
+DESCRIPTION:
+Latitude 61°26'03",   Longitude 142°56'26"   NAD27
+Valdez-Cordova Census Area County, Alaska, Hydrologic Unit 19020103
+Drainage area: 352 square miles
+Datum of gage: 1,335 feet above   NGVD29.
+
+AVAILABLE DATA:
+Data Type		Begin Date	End Date	Count
+ Current / Historical Observations     (availability statement)   1994-05-20 	 2020-07-01 	 
+ Daily Data
+    Discharge, cubic feet per second 	 1992-05-28 	 2020-06-30 	 1354 
+ Daily Statistics 
+    Discharge, cubic feet per second 	 1992-05-28 	 2019-11-16 	1282 
+ Monthly Statistics 
+    Discharge, cubic feet per second 	 1992-05 	 2019-11 	 
+ Annual Statistics 
+    Discharge, cubic feet per second 	 1992 	 2020 	 
+ Peak streamflow	 1992-07-07 	 2019-07-08 	 9 
+ Field measurements	 1990-08-01 	 2020-06-03 	 39 
+ Water-Year Summary	 2016 	 2019 	 4 
+ Revisions	 Unavailable (site:0) (timeseries:0)
+
+
+Data obtained from Barton Dengel, USGS, June 30, 2020:
+
+"Here you go.  The only export tool we have for exporting non published data is pretty weak.  The exported file does not accommodate any gaps in the data (all gaps are ignored in the output file).  I have attached a screen shot detailing all of the data gaps for the period of record.  Gaps were either due to instrument failure, loss of power, or gage maintenance when power was pulled from the dcp.  Data is logged on 15 minute resolution.  One other thing, due to a corrupted data logger the winter temp for 2019-2020 got truncated when temps drop below -10C (anything below -10 wont report anything to the right of the decimal).  Since only the air temp log was the only parm affected we didn't spend any energy trying to fully recover the data.  We replaced the dcp this spring with the sonde install so it wont be an issue going forward.
+
+And just to reiterate, I know you are already aware of this, but there has been no qa/qc performed on this data and it is still provisional.
+
+Any questions or anything else comes up let me know
+
+Bart 
+
+Barton Dengel
+Hydrologic Technician
+USGS, Alaska Science Center
+Anchorage Field Office
+1568 East 12th Ave
+Anchorage, AK 99501
+(907) 786- 7057
+bdengel@usgs.gov"
+

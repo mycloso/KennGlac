@@ -1,0 +1,69 @@
+Metadata for modified temperature data files:
+1. temperature_meta
+2. daily_temperature_data
+3. daily_tavg
+
+This txt file describes data contents, the raw source data and metadata, operations done to the data, column headers, and units.
+# -----------------------
+1. temperature_meta:
+# -----------------------
+- this file contains useful metadata variables for each met station.
+- data in this file all came from metadata sheets for individual stations which are as follows:
+	1. Gates Glacier = "GGLA2_metadata_CAKN_README.txt"
+	2. May Creek (SNOTEL and FIRE RAWS) = "GHCDN_GatesMay_metadata.txt"
+	3. Pascal Buri AWS = "BURI_AWS_2019_metadata.pdf"
+	4. USGS Gage Station = "USGS_15209700_airtemp_metadata.txt"
+	5. NWS Coop Observations = NWS_coop_505757_metadata.txt"
+- The only operations done on these data were unit conversions. The elevation of the USGS site should be verified.  
+- Columns and units are as follows:
+	1. el = site elevation in meters
+	2. lat = site latitude in degrees
+	3. lon = site longitude in degrees 
+	4. ID = station ID, where applicable. Note that this field was not used in any of the work so far and could be eliminated.
+
+
+# ------------------------
+2. daily_temperature_data:
+# ------------------------
+- this file contains daily temperature indices for Gates, May Creek, Buri, USGS, and Coop meteorological sites from 2016 to 2020. 
+Data from each site will be described individually. 
+- Columns and Units for all sites are consistent:
+	1. TMIN = minimum daily air temperature
+	2. TAVG = average daily air temperature
+	3. TMAX = maximum daily air temperature
+
+Gates Glacier:
+	- raw temperature data are found in the files "WC_G_GGLA2.csv" (2016 - 2019) and "GGLA2.2020-07-07.csv" (preliminary 2019-2020 data).  
+	- preliminary data time stamps were coerced to hourly time steps, time stamps were converted from utc to AK DST time zone, 
+		temperature values were converted from Fahrenheit to Celcius, and data were resampled to daily intervals.
+		
+
+May Creek:
+	- raw temperature data are found in the file "MayCreekRAWS_19900501-20200713.csv".
+	- Hourly time stamps were converted to DST, temperature values converted to celcius, and data resampled to daily intervals.
+
+Buri AWS
+	- raw temperature data are from file "BURI_AWS_2019.txt"
+	- Raw data in hourly intervals. A new date index columns was put in to avoid some incorrect dates in spreadsheet and data were resampled to daily intervals.
+
+USGS Site
+	- raw temperature data are found in file "USGS_15209700_airtemp.csv".
+	- Raw 15-minute data were resampled to daily intervals
+
+NWS Coop 
+	- raw temperature data are found in file "NWS_coop_505757_csv.txt".
+	- Raw data in daily time steps. Flagged temperature values replaced by nans, temperatures converted to celcius, and data resampled to daily indices. 
+
+
+# ------------------------
+3. daily_tavg
+# ------------------------
+- This file contains daily average temperatures for Gates Glacier, Buri AWS, and USGS sites. The USGS record is complete from
+	2016 - 2020, which was accomplished via  gap-filling of missing winter 2018/2019 USGS data using a regression of May Creek site temperatures. 
+- For the Buri and Gates sites, average daily air temperatures are identical to those in daily_temperature_data. For USGS however, temperatures
+	between 2018-10-10 and 2019-05-08 were filled using the regression equation, y = 0.93(x) + 0.10, where x represents the May Creek air temperature. 
+- Columns in this data file are:
+	'gates' = daily average air temperature for gates in Celcius
+	'buri' = daily average air temperature for Buri AWS in Celcius
+	'usgs' = daily average air temperature for USGS in Celcius
+	

@@ -1,0 +1,40 @@
+Metadata for precipitiation csv and pickle files:
+1. snotel_precip
+2. gates_precip
+3. lower_caws
+
+This txt file describes data contents, the raw source data and metadata, operations done to the data, column headers, and units.
+
+1. snotel_precip: 
+- These data contain daily records of precipitation variables measured at the May Creek SNOTEL station from 2016-01-01 to 2020-08-01. 
+	Raw data are daily, start of day values.  
+- The original data and metadata are named "SNOTEL_1096_MayCreek.txt" and "SNOTEL_metadata.txt" in the climatedata folder. 
+- Snow depths greater than 100 were thrown out, otherwise, the data are unaltered.  
+- Columns and units are as follows:
+	Precip_acc = Precipitation Accumulation (mm) Start of Day Values
+	Precip_inc = daily Precipitation Increment (mm)
+	SDS = Snow Depth (cm) Start of Day Values
+	SWES = Snow Water Equivalent (mm) Start of Day Values
+
+
+2. gates_precip:
+- These data contain daily records of rainfall and snow depth at the Gates Glacier weather station from 2016-01-01 to 2020-07-07. 
+	Raw data are hourly sample for snow depth and hourly total for rainfall. 
+- Raw data and metadata for 2016 - 2019 are found in the files "WC_G_GGLA2.csv" and "WC_G_GGLA2.csv" while preliminary data from 2019-2020 are 
+found in the file "GGLA2.2020-07-07.csv". 
+- Snow depth values greater than 100 were thrown out, and index time values were coerced to the nearest whole hour in the preliminary 2019-2020 data set.
+	Data were then resampled to daily time intervals where snow depths are daily start of day values and rainfall is daily sum.
+- Columns and units are as follows:
+	RN = rainfall in mm (daily sum)
+	SD = snowdepth in cm (start of day value)
+
+3. caws_precip:
+- these data contain daily rain and snow measured at the Lower Chinese Automated Weather Station from 2018-08-31 to 2019-09-02. 
+	Raw data are at 10-minute intervals. 
+- raw data and metadata are found in the files "LowerAWS_20180831To20190902.dat" and "Metadata_LowerAWS.txt". 
+- A sensor height of "176.4 cm was added to snow depth data to correct for sensor height. Data were resampled to daily, start of day values.
+	
+- Columns and units are as follows:
+	SD = snow depth in cm (start of day value)
+	RS = rain and snow accumulated precipitation in mm (start of day value)
+	Precip_inc = daily precipitation in mm; negative values (?) thrown out. 

@@ -1,0 +1,17 @@
+Metadata for May Creek NRCS SNOTEL site obtained from report generator at link https://wcc.sc.egov.usda.gov/reportGenerator/. Accessed on August 1, 2020
+
+DATA START: 01/01/2016
+DATA END: 08/01/2020
+
+Location: May Creek NRCS SNOTEL 1096 
+
+
+< NRCS Station Metadata>
+SNOTEL Site: May Creek
+State: Alaska
+Site Number: 1096
+County: Valdez-cordova
+Latitude: 61 deg; 21 min N
+Longitude: 142 deg; 43 min W
+Elevation: 1610 feet
+Reporting since: 2006-10-01

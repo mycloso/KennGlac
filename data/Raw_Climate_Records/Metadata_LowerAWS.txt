@@ -1,0 +1,50 @@
+Data Logger: Compbell CR6 Series
++Related Variables
+--PTemp: Temperature of Data Logger Panel, Units: Degree Centigrade
+--batt_volt: Voltage of battery, Units: V
+--------
+Radiation Sensor: CNR4
++Related Variables
+--DR: Downward Shortwave Radiation, Units: W/m2
+--UR: Upward Shortwave Radiation, Units: W/m2
+--DLR: Downward Longwave Radiation, Units: W/m2
+--ULR: Upward Longwave Radiation, Units: W/m2
+--Rn: Net Radiation, Units: W/m2
+--Albeldo: Units: %
+--------
+Air Temperature and Humidity Sensor: HC2S3
++Related Variables
+--Air_T_1_5m: Air Temperature at 1m height, Units: Degree Centigrade
+--Air_RH_1_5m: Relative Humidity at 1m height, Units: %
+--Vapor_p_1_5m: Vapor Pressure at 1m height, Units: kPa
+--Air_T_3m: Air Temperature at 3m height, Units: Degree Centigrade
+--Air_RH_3m: Relative Humidity at 3m height, Units: %
+--Vapor_p_3m: Vapor Pressure at 3m height, Units: kPa
+--------
+Ground Surface Temperature Sensor: SI-111
++Related Variables
+--SBTempC: Sensor Temperature, Units: Degree Centigrade
+--TargTempC: Surface Temperature, Units: Degree Centigrade
+--------
+Precipitation Sensor: T200B
++Related Variables
+--RainSnow: Precipitation (Snow and Rain), Units: mm
+--------
+Air Pressure Sensor: CS106
++Related Variables
+--Pressure: Units: hPa
+--------
+Wind Speed and Direction Sensor: 05103
++Related Variables
+--WS_1_5m: Wind Speed at 1m height, Units: m/s
+--WD_1_5m: Wind Direction at 1m height, Units: Degree
+--Std_WD_1_5m: Standard deviation of Wind Direction at 1m height, Units: Degree
+--WS_3m: Wind Speed at 3m height, Units: m/s
+--WD_3m: Wind Direction at 3m height, Units: Degree
+--Std_WD_3m: Standard deviation of Wind Direction at 3m height, Units: Degree
+--------
+Snow Depth Sensor: SR50A
++Related Variables
+--Raw_Distance: Raw Distance measure by sensor, Units: none
+--SignalQuality: Signal Quality of the measurements, Units: none
+--Snow_depth: Snow Depth measured by SR50A, Units: cm

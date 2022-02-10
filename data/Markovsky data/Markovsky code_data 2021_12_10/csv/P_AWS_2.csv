@@ -1,0 +1,4 @@
+﻿Latitude(N),Longitude(W),Elevation(m),Date,Length Exposed (cm),Length in Ice (cm),Melt,Stake Length (cm),Status,Surface Type,Debris Depth (cm),Debris Property,Snow Depth (cm),Snow,Source,Ice/Firn,Source,Mass Balance (g/cm^2)
+61.484060 ,142.923668 ,584.4 ,6/17/20,-95.0,1289.0 ,0.0 ,1200.00 ,New Installation,Debris,6.00 ,Gravel over sand with light cobbles,0.00 ,,,,,0.00 
+61.484039 ,142.923584 ,585.2 ,7/25/20,7.0,1187.0 ,102.0 ,1200.00 ,Active,Debris,6.00 ,Gravel over sand with light cobbles,0.00 ,,,,,91.80 
+,,,9/6/20,63.0,1131.0 ,56.0 ,1200.00 ,Active,Debris,6.00 ,Gravel over sand with light cobbles,0.00 ,,,,,50.40 

@@ -1,0 +1,5 @@
+﻿Latitude(N),Longitude(W),Elevation(m),Date,Length Exposed (cm),Length in Ice (cm),Melt,Stake Length (cm),Status,Surface Type,Debris Depth (cm),Debris Property,Snow Depth (cm),Snow,Source,Ice/Firn,Source,Mass Balance (g/cm^2)
+61.517436,142.971911,724,6/8/19,-33,1226,0,1200,New Installation,Debris,7,,0,,,,,0
+61.517265,142.970887,719.2,6/22/20,77,816,410,900,Active,Debris,7,,0,,,,,369
+61.517258,142.97082,715.9,7/29/20,48,695,121,750,Active,Debris,7,,0,,,,,108.9
+,,,9/1/20,135,608,87,750,Active,Debris,7,,0,,,,,78.3

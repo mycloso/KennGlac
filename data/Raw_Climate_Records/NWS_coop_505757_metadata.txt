@@ -1,0 +1,24 @@
+Metadata for McCarthy town NWS Cooperative Station
+
+DATA START: 05/01/2016
+DATA END: 12/31/2017
+
+accessed at http://xmacis.rcc-acis.org
+
+SITE INFORMATION
+
+Elevation: 1250 ft
+Latitude: 61.4180
+Longitude: -142.9961
+
+
+DATA PARAMETERS:
+TMIN
+TAVG
+TMAX
+PRECIP
+SNOWFALL
+SNOWDEPTH
+
+Location: MCCARTHY 3 SW, AK
+Site ID: 505757

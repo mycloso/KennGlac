@@ -1,0 +1,27 @@
+Metadata for Air Temperature Data from GHCND Stations near McCarthy, AK
+1. Gates Glacier
+2. May Creek 
+DATA START: 05/01/2016
+DATA END: 06/28/2020
+
+accessed at https://www.ncdc.noaa.gov/cdo-web/ on July 1, 2020
+
+SITE INFORMATION
+
+1. Gates Glacier 
+GHCND:USR0000AGAT
+Elevation: 1237.5m
+Latitude:  61.6028 
+Longitude:  -143.0131
+
+2. May Creek
+GHCND:USR0000AMAY                         
+Elevation: 487.7 
+Latitude:   61.3208
+Longitude:  -142.5844
+
+
+DATA PARAMETERS (Degrees C):
+TMIN
+TAVG
+TMAX
